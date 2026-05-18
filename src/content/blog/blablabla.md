@@ -40,7 +40,7 @@ where:
 
 Unlike NeRF, which requires expensive neural network inference during rendering, Gaussian Splatting directly rasterizes these primitives on the GPU.
 
-This makes rendering significantly faster.
+This makes rendering significantly faster!
 
 ---
 
