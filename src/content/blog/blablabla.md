@@ -12,11 +12,11 @@ tags:
   - language field
 
 image:
-  src: /images/gsplat.png
+  src: https://honeysty1201.github.io/images/gsplat.png
   alt: Gaussian Splatting visualization
-
 ogImage:
-  src: /images/gsplat.png
+  src: https://honeysty1201.github.io/images/gsplat.png
+
 ---
 
 # Gaussian Splatting
