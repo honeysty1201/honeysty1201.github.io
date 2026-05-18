@@ -56,13 +56,6 @@ article :where(h2, h3, h4) {
     scroll-margin-top: calc(4rem + 0.75rem);
 }
 
-.turnstile-container-collapsed {
-    height: 0 !important;
-    min-height: 0 !important;
-    overflow: hidden !important;
-    margin: 0 !important;
-}
-
 .medium-zoom-overlay {
     top: 0;
     left: 0;

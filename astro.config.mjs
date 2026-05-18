@@ -1,6 +1,5 @@
 // @ts-check
 import { defineConfig, fontProviders } from "astro/config";
-import sitemap from "@astrojs/sitemap";
 import pagefind from "astro-pagefind";
 import tailwindcss from "@tailwindcss/vite";
 import icon from "astro-icon";
@@ -49,7 +48,6 @@ export default defineConfig({
   ],
 
   integrations: [
-    sitemap(),
     pagefind(),
     icon(),
     expressiveCode({

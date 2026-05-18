@@ -54,4 +54,4 @@ acceptance of the revised terms.
 
 ## Contact
 
-If you have any questions about these Terms, please [contact me](/contact)
+If you have any questions about these Terms, please reach out via the social links listed on this site.

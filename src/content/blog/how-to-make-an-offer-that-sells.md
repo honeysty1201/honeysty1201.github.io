@@ -1,6 +1,6 @@
 ---
 draft: false
-featured: '3'
+featured: none
 title: How to Make an Offer That Sells
 description: >-
   Clients don't buy coaching, design, or consulting — they buy the future

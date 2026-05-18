@@ -1,6 +1,6 @@
 ---
 draft: false
-featured: '2'
+featured: none
 title: How to Find Your Audience
 description: >-
   This post shows you how to use the "watering hole" method to spot where your
