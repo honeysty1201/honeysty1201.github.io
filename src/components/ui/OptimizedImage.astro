@@ -1,0 +1,45 @@
+---
+import { cn } from "../../utils/styles";
+
+interface Props {
+    src: string;
+    alt: string;
+    wrapperClass?: string;
+    imageClass?: string;
+    loading?: "lazy" | "eager";
+    fetchpriority?: "high" | "low" | "auto";
+    width?: number | string;
+    height?: number | string;
+    [key: string]: any;
+}
+
+const {
+    src,
+    alt,
+    wrapperClass = "",
+    imageClass = "",
+    loading = "lazy",
+    fetchpriority,
+    ...rest
+} = Astro.props;
+
+const fetchPriorityVal =
+    loading === "eager" ? (fetchpriority ?? "high") : undefined;
+---
+
+<div
+    class={cn(
+        "relative overflow-hidden bg-neutral-200 dark:bg-neutral-700",
+        wrapperClass,
+    )}
+>
+    <img
+        src={src}
+        alt={alt}
+        class={cn("absolute inset-0 h-full w-full object-cover", imageClass)}
+        loading={loading}
+        fetchpriority={fetchPriorityVal}
+        decoding="async"
+        {...rest}
+    />
+</div>
