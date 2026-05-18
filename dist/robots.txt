@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://https//honeysty1201.github.io/sitemap-index.xml
