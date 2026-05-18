@@ -5,6 +5,7 @@ description: >
   Notes and thoughts on 3D Gaussian Splatting, real-time rendering,
   and language-aware scene representations.
 pubDate: 2026-05-18T16:30:00.000Z
+license: cc-by-nc-sa-4-0
 tags:
   - gaussian splatting
   - 3dgs
