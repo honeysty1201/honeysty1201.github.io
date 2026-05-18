@@ -7,7 +7,9 @@ import icon from "astro-icon";
 import expressiveCode from "astro-expressive-code";
 import { pluginLineNumbers } from "@expressive-code/plugin-line-numbers";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
+import rehypeKatex from "rehype-katex";
 import rehypeSlug from "rehype-slug";
+import remarkMath from "remark-math";
 
 // https://astro.build/config
 export default defineConfig({
@@ -57,8 +59,10 @@ export default defineConfig({
   ],
 
   markdown: {
+    remarkPlugins: [remarkMath],
     rehypePlugins: [
       rehypeSlug,
+      rehypeKatex,
       [
         rehypeAutolinkHeadings,
         {
