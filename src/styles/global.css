@@ -140,6 +140,38 @@ img.no-zoom {
     @apply rounded-md bg-blue-500/30 px-1 py-0.5 text-blue-900 dark:bg-yellow-400/30 dark:text-yellow-100;
 }
 
+.prose .admonition {
+    @apply my-8 rounded-2xl border border-neutral-200 bg-neutral-50 px-5 py-4 dark:border-neutral-700 dark:bg-neutral-900;
+}
+
+.prose .admonition-title {
+    @apply mt-0 mb-3 text-base font-semibold tracking-tight;
+}
+
+.prose .admonition > :last-child {
+    @apply mb-0;
+}
+
+.prose .admonition-info {
+    @apply border-l-4 border-l-blue-500 bg-blue-50/70 dark:bg-blue-950/30;
+}
+
+.prose .admonition-note {
+    @apply border-l-4 border-l-sky-500 bg-sky-50/70 dark:bg-sky-950/30;
+}
+
+.prose .admonition-tip {
+    @apply border-l-4 border-l-emerald-500 bg-emerald-50/70 dark:bg-emerald-950/30;
+}
+
+.prose .admonition-warning {
+    @apply border-l-4 border-l-amber-500 bg-amber-50/70 dark:bg-amber-950/30;
+}
+
+.prose .admonition-danger {
+    @apply border-l-4 border-l-rose-500 bg-rose-50/70 dark:bg-rose-950/30;
+}
+
 /* TOC styling */
 /* Active link styling */
 .toc-item-wrapper.is-active > a {

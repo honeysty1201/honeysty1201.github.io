@@ -15,10 +15,10 @@ tags:
   - language field
 
 image:
-  src: https://honeysty1201.github.io/images/gsplat.png
-  alt: Gaussian Splatting visualization
+  src: https://res.cloudinary.com/dth0wdg3c/image/upload/f_auto,q_auto/gsplat_fc0c4n
+
 ogImage:
-  src: https://honeysty1201.github.io/images/gsplat.png
+  src: https://res.cloudinary.com/dth0wdg3c/image/upload/f_auto,q_auto/gsplat_fc0c4n
 
 ---
 

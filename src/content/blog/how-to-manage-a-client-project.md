@@ -1,6 +1,6 @@
 ---
 draft: false
-featured: none
+featured: '3'
 title: How to Manage a Client Project
 description: >-
   Great work isn't enough if clients feel left in the dark. Silence breeds
