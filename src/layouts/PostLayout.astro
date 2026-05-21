@@ -20,8 +20,12 @@ const { Content, headings } = await render(entry);
 
 const allPostsInCollection =
     entry.collection === "blog"
-        ? await getCollection("blog")
-        : await getCollection("projects");
+        ? (await getCollection("blog", ({ data }) => !data.draft)).sort(
+              (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+          )
+        : (await getCollection("projects", ({ data }) => !data.draft)).sort(
+              (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+          );
 
 const postIndex = allPostsInCollection.findIndex((e) => e.id === entry.id);
 const prevPost = allPostsInCollection[postIndex + 1];

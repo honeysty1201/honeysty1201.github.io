@@ -1,6 +1,6 @@
 ---
 draft: false
-featured: '2'
+featured: '1'
 title: LangSplat
 description: >
     The pioneering work that opened the modern direction of language field

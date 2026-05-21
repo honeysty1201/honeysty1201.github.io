@@ -172,6 +172,49 @@ img.no-zoom {
     @apply border-l-4 border-l-rose-500 bg-rose-50/70 dark:bg-rose-950/30;
 }
 
+.prose .markdown-template-grid {
+    @apply my-8 grid gap-4;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.prose .markdown-template-panel {
+    @apply overflow-hidden rounded-2xl border border-neutral-200 bg-white dark:border-neutral-700 dark:bg-neutral-900;
+}
+
+.prose .markdown-template-label {
+    @apply m-0 border-b border-neutral-200 bg-neutral-50 px-4 py-2 text-sm font-semibold tracking-tight text-neutral-700 dark:border-neutral-700 dark:bg-neutral-800 dark:text-neutral-200;
+}
+
+.prose .markdown-template-body {
+    @apply px-4 py-4;
+}
+
+.prose .markdown-template-code {
+    @apply m-0 overflow-x-auto bg-neutral-950 px-4 py-4 text-sm text-neutral-100 dark:bg-black;
+}
+
+.prose .markdown-template-code code {
+    @apply bg-transparent p-0 text-inherit;
+}
+
+.prose .markdown-template-plain-pre {
+    @apply m-0 overflow-x-auto rounded-xl bg-neutral-950 px-4 py-4 text-sm text-neutral-100;
+}
+
+.prose .markdown-template-plain-pre code {
+    @apply bg-transparent p-0 text-inherit;
+}
+
+.prose .markdown-template-html-box {
+    @apply rounded-2xl border border-dashed border-current p-4;
+}
+
+@media (max-width: 900px) {
+    .prose .markdown-template-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* TOC styling */
 /* Active link styling */
 .toc-item-wrapper.is-active > a {

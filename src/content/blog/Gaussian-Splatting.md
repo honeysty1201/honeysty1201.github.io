@@ -1,7 +1,7 @@
 ---
 draft: false
-featured: '1'
-title: test_Gaussian Splatting
+featured: '2'
+title: Gaussian Splatting
 description: >
   Notes and thoughts on 3D Gaussian Splatting, real-time rendering,
   and language-aware scene representations.
@@ -121,12 +121,4 @@ I am especially interested in:
 - dynamic scene understanding
 - hierarchical semantic structures
 
----
-
-## References
-
-- Kerbl et al., *3D Gaussian Splatting for Real-Time Radiance Field Rendering*
-- LERF
-- LangSplat
-- SLARM
-- 4DLangSplat
+In the [next post](/blog/langsplat),
